@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome Page</title>
-</head>
-<body>
-    
-    <div>
-        <p id="questAns">
+  </head>
+  <body>
+    <div id="maindiv">
+      <p id="questAns"></p>
+      <input value="1" class="inp-2" name="options" type="radio" />
 
-        </p>
-        <input value="1" class="inp-2" name="options" type="radio"><label class="label" id="opt1" for=""></label><br>
-        <input value="2" class="inp-2" name="options" type="radio"><label class="label" id="opt2" for=""></label><br>
-        <input value="3" class="inp-2" name="options" type="radio"><label class="label" id="opt3" for=""></label><br><br>
-    
-        <button disabled id="btn">Next</button>
+      <label class="label" id="opt1" for=""></label><br />
+      <input value="2" class="inp-2" name="options" type="radio" />
+      <label class="label" id="opt2" for=""> </label><br />
+      <input value="3" class="inp-2" name="options" type="radio" />
+      <label class="label" id="opt3" for=""></label><br /><br />
+      <button disabled id="btn">Next</button>
     </div>
 
-    <script  src="welcome.js"></script>
+    <div id="percBlock" style="display: none">
+      <h1 id="res">shisshjshjs</h1>
+    </div>
 
-</body>
+    <script src="welcome.js"></script>
+  </body>
 </html>
