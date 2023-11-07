@@ -167,13 +167,10 @@ option3.innerText = questions[0].option3;
 btn.addEventListener("click", function foo() {
   if (index > questions.length - 1) {
     var prc = (score / questions.length) * 100;
-    // location.href = "./result.html";
-    // result.innerHTML = `Your Percentage is ${prc}`;
-    // console.log(result);
     console.log(prc);
     maindiv.style.display = "none";
     percBlock.style.display = "block";
-    res.innerHTML = `Your percentage is ${prc}`;
+    res.innerHTML = `Your percentage is ${prc}%`;
   } else {
     // var index = 1
     getQuest.innerText = questions[index].question;
